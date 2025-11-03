@@ -1,0 +1,22 @@
+# Node.js dependencies
+node_modules/
+
+# Optional: Skip logs
+logs/
+*.log
+
+# Optional: Skip environment variables
+.env
+
+# Optional: Skip build artifacts
+dist/
+build/
+
+# Optional: Skip OS-specific files
+.DS_Store
+Thumbs.db
+
+.env.*
+
+# Output of they Eleventy SSG - which is what gets deployed
+dist/
