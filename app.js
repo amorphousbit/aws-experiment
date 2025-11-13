@@ -15,5 +15,6 @@ app.get('/data2', (req, res) => {  res.json({ data: [
 });
 
 app.listen(3000, () => console.log('Server on :3000'));
-
 app.use(express.static('public'));
+
+

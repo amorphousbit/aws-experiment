@@ -5,6 +5,8 @@ node_modules/
 logs/
 *.log
 
+!one-log-to-git.log
+
 # Optional: Skip environment variables
 .env
 
