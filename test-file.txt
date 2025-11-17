@@ -9,7 +9,4 @@ Whose fleece was turquoise-aqua as snow.
 I most certainly do know merge conflicts. Here's what I have to say about them!!!
 
 IMPORTANT -> PRODUCTION PATCH!
-
-thanks!
-
-ADDITIONAL content
+My whole purpose here is to cause merge conflicts XYZ
