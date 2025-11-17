@@ -24,5 +24,7 @@ CHAPTER 4.1 WORKSTATION #1.0 - GGGGGHHHHHIIJJKLM
 Chapter 5.0 Workstation #1.0 - 34834634346000000 [hotfix5 branch experiment]
 Chapter 5.0.b WS#1.0 - BBBBBBBBBB
 
+Chapter 6.1 Forcing a Merge - ABC-331-1445-56547uu54
+
 Chapter 6.2 Clearly this will challenge automatic merging. Let's go.
 
