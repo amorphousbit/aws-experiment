@@ -10,6 +10,5 @@ I most certainly do know merge conflicts. Here's what I have to say about them!!
 
 IMPORTANT -> PRODUCTION PATCH!
 
-thanks!
+NOTE => Updating this file @ 11:40 11/17/2025
 
-ADDITIONAL content
