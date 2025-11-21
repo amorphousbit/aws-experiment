@@ -13,3 +13,6 @@ My whole purpose here is to cause merge conflicts XYZ
 NOTE => Updating this file @ 11:40 11/17/2025
 
 ADDITIONAL content
+
+SELECT * FROM TestTableForYourEdification;
+
