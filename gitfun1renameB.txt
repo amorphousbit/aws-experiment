@@ -1,0 +1,9 @@
+
+This is an example file for experimenting with how git individually tracks files
+
+I just was renamed to gitfun1renameB AND this line of content was added!!!
+
+
+Oh! And gitfun1renameB was just changed *after* staging changes. Interesting, eh?
+How working directory mods can be segmented from staging for same file, eh?
+

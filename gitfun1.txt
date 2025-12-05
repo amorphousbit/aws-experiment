@@ -1,3 +1,0 @@
-
-This is an example file for experimenting with how git individually tracks files
-
