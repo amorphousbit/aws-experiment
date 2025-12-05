@@ -1,34 +1,31 @@
 
-console.log(parseFloat("122354.43545454"));
 
-let x = new Number("123145545");
-console.log(x + 3)
-
-console.log(parseInt("101110111111", 2));
-console.log(parseInt("11", 16));
-
-
-const objectTest = { 
-    a: { record: "ABB3111" },
-    b: { record: "GBB3113" },
-    c: { record: "LBB3115" },
-};
+// Both of the following declarations and assignments are equivalent
+//
+const regx1 = /ab+c/g;
+const regx2 = new RegExp("ab+c", "g");
+const input = "abcdbabcdbsbz";
 
 
-// Iterate over "the enumerable property keys"
-for (let j in objectTest) {
-    console.log(j);
+// Approach #1 - explicit invocation of iterator methods
+//
+console.log("\nexample #1: explicit iterator code");
+const iterator1 = input.matchAll(regx2);
+while (true) {
+    const next = iterator1.next();
+    if (next.done) {
+        break;
+    } else {
+        console.log(next.value, next.done);
+    }
 }
 
-// Will not work - old school object is not iterable!
-// for...of traverses iterable objects (Array, String, NodeList (?), etc. )
-for (let j of objectTest) {
-    console.log(j);
+// Approach #2 - using JS for...of, which is syntactic sugar
+//
+console.log("\nexample #2: for x of iterator");
+const iterator2 = input.matchAll(regx2);
+for (let x of iterator2) {
+    console.log("Value", x);
 }
 
-
-function letsThroughGitThruALoop() {
-    let localTest = 123;
-    const name = "Archibald Baskerville";
-}
 
