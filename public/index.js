@@ -2,9 +2,11 @@
 
 // Both of the following declarations and assignments are equivalent
 //
-const regx1 = /ab+c/g;
+const regx1 = /ab+c/g;          // g means global i.e. all incidents
+                                // '+' operator follows the element that's allowed to repeat itself
+
 const regx2 = new RegExp("ab+c", "g");
-const input = "abcdbabcdbsbz";
+const input = "abbbbcabbbcefzywfiabcooooabgabc";
 
 
 // Approach #1 - explicit invocation of iterator methods
@@ -20,12 +22,13 @@ while (true) {
     }
 }
 
-// Approach #2 - using JS for...of, which is syntactic sugar
-//
-console.log("\nexample #2: for x of iterator");
-const iterator2 = input.matchAll(regx2);
-for (let x of iterator2) {
-    console.log("Value", x);
-}
+
+// // Approach #2 - using JS for...of, which is syntactic sugar
+// //
+// console.log("\nexample #2: for x of iterator");
+// const iterator2 = input.matchAll(regx2);
+// for (let x of iterator2) {
+//     console.log("Value", x);
+// }
 
 
